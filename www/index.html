@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/output.css" rel="stylesheet" type="text/css">
+        <script src="js/main.js" defer></script>
+    </head>
+    <body class="bg-gray-200">
+        <!-- NAVIGATION -->
+        <!-- NAVBAR -->
+        <nav class="bg-white shadow-md sticky top-0 w-full flex flex-row justify-between items-center">
+            <!-- Burger -->
+            <span id="menu-btn" class="icon-[solar--hamburger-menu-linear] text-4xl m-1.5 cursor-pointer" style="color: #3b3b3b;"></span>
+            <!-- Logo -->
+            <img src="images/nav-logo-smaller.png" style="width:200px;height:auto;" alt="logo-vector">
+            <!-- Placeholder -->
+            <div></div>
+        </nav>
+        <!-- SIDEBAR -->
+        <div id="sidebar" class="z-1 bg-sky-900 fixed top-0 left-0 h-full w-64 p-5 -translate-x-full transition-transform duration-300 text-gray-100 font-medium">
+            <!-- CLOSE ICON -->
+            <a id="close-btn" href="#" class="icon-[material-symbols--close] absolute top-o right-3" style="width:1.5em;height:1.5em;"></a>
+            <div>
+                <a href="#" class="text-xl block underline">OELs</a>
+                <ul class="list-inside indent-2">
+                    <a href="#">OEL - TVs</a>
+                    <a href="#">OEL - Laptops</a>
+                    <a href="#">OEL - MDA</a>
+                    <a href="#">OEL - Mobiles</a>
+                </ul>
+            </div>
+            <br>
+            <div>
+                <a href="#" class="text-xl block underline">Easy TV Cares</a>
+            </div>
+            <br>
+            <div>
+                <a href="#" class="text-xl block underline">Current S/W recs</a>
+            </div>
+            <br>
+            <div>
+                <a href="#" class="text-xl block underline">Personal recs</a>
+                <ul class="list-inside indent-2">
+                    <a href="#">TV rec</a>
+                    <a href="#">Printer rec</a>
+                    <a href="#">Soundbar rec</a>
+                </ul>
+            </div>
+            <br>
+            <div>
+                <a href="#" class="text-xl block underline">Top Tips</a>
+                <ul class="list-inside indent-2">
+                    <a href="#">Care&Repair Top Tips</a>
+                    <a href="#">I&R Top Tips</a>
+                    <a href="#">Broadband Top Tips</a>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- OVERLAY -->
+        <div id="overlay" class="fixed inset-0 bg-black hidden"></div>
+    </body>
+
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "vector",
+  "version": "1.0.0",
+  "description": "version alpha",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./www/css/input.css -o ./www/css/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.439",
+    "@iconify/tailwind4": "^1.2.1"
+  }
+}
+

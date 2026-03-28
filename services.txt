@@ -1,0 +1,28 @@
+OELs for TVs
+OELs for Laptops
+OELs for MDA
+OELs for Mobile
+foreach:
+-image
+-title
+-variation + msrp
+-reason to sell
+
+Easy TV cares
+foreach:
+-image
+-title(model+size)
+-msrp
+-discount/reason
+
+Current S/W recommendations
+(maybe image, include; title, bundle price, S/W percentage)
+
+Personal TV recommendations
+Personal printer recommendations
+Personal Soundbar recommendations
+(include; title, image, variations, msrp, reason to sell, add/remove function)
+
+Care&Repair top tips
+Instant Replacement tips
+(detailed strats, pitches/liners)

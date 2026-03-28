@@ -1,15 +1,9 @@
 @import "tailwindcss";
 @plugin "@iconify/tailwind4";
 
-/* Anchor tag block rule */
-ul > a
-{
-    display: block;
-}
-
-ul > a:hover
-{
-    text-decoration: underline;  
+/* NAV RULES */
+#sidebar > div{
+    margin: .4em 0;
 }
 
 /* OTHER RULES */

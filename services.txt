@@ -5,15 +5,14 @@ OELs for Mobile
 foreach:
 -image
 -title
--variation + msrp
+-variations
 -reason to sell
 
 Current S/W recommendations
 (maybe image, include; title, bundle price, S/W percentage)
 
 Personal TV recommendations
-Personal Printer recommendations
 Personal Soundbar recommendations
-(include; title, image, variations, msrp, reason to sell, add/remove function)
+(include; title, image, variations, reason to sell)
 
-Care&Repair top tips
+top tips

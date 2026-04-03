@@ -18,3 +18,40 @@ function closeSidebar()
 menuBtn.addEventListener('click', openSidebar);
 closeBtn.addEventListener('click', closeSidebar);
 overlay.addEventListener('click', closeSidebar);
+
+const tvContent = document.getElementById("tv");
+const laptopContent = document.getElementById("laptop");
+const mdaContent = document.getElementById("mda");
+const mobileContent = document.getElementById("mobile");
+
+function swap(x)
+{
+    if(x == 1)
+    {
+        tvContent.classList.remove("hidden");
+        laptopContent.classList.add("hidden");
+        mdaContent.classList.add("hidden");
+        mobileContent.classList.add("hidden");
+    }
+    else if(x == 2)
+    {
+        tvContent.classList.add("hidden");
+        laptopContent.classList.remove("hidden");
+        mdaContent.classList.add("hidden");
+        mobileContent.classList.add("hidden");
+    }
+    else if(x == 3)
+    {
+        tvContent.classList.add("hidden");
+        laptopContent.classList.add("hidden");
+        mdaContent.classList.remove("hidden");
+        mobileContent.classList.add("hidden");
+    }
+    else if(x == 4)
+    {
+        tvContent.classList.add("hidden");
+        laptopContent.classList.add("hidden");
+        mdaContent.classList.add("hidden");
+        mobileContent.classList.remove("hidden");
+    }
+}

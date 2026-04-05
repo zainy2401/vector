@@ -40,11 +40,4 @@ function swap(x)
         mdaContent.classList.add("hidden");
         mobileContent.classList.add("hidden");
     }
-    else if(x == 4)
-    {
-        tvContent.classList.add("hidden");
-        laptopContent.classList.add("hidden");
-        mdaContent.classList.add("hidden");
-        mobileContent.classList.remove("hidden");
-    }
 }

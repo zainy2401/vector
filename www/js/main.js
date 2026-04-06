@@ -1,3 +1,4 @@
+// SIDEBAR SCRIPT
 const menuBtn = document.getElementById('menu-btn');
 const closeBtn = document.getElementById('close-btn');
 const sidebar = document.getElementById('sidebar');
@@ -19,10 +20,10 @@ menuBtn.addEventListener('click', openSidebar);
 closeBtn.addEventListener('click', closeSidebar);
 overlay.addEventListener('click', closeSidebar);
 
+// OEL SWITCHING
+
 const tvContent = document.getElementById("tv");
 const laptopContent = document.getElementById("laptop");
-const mdaContent = document.getElementById("mda");
-const mobileContent = document.getElementById("mobile");
 
 function swap(x)
 {
@@ -30,14 +31,10 @@ function swap(x)
     {
         tvContent.classList.remove("hidden");
         laptopContent.classList.add("hidden");
-        mdaContent.classList.add("hidden");
-        mobileContent.classList.add("hidden");
     }
     else if(x == 2)
     {
         tvContent.classList.add("hidden");
         laptopContent.classList.remove("hidden");
-        mdaContent.classList.add("hidden");
-        mobileContent.classList.add("hidden");
     }
 }

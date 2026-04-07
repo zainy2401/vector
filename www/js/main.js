@@ -22,11 +22,12 @@ overlay.addEventListener('click', closeSidebar);
 
 // OEL SWITCHING
 
-const tvContent = document.getElementById("tv");
-const laptopContent = document.getElementById("laptop");
-
 function swap(x)
 {
+
+    const tvContent = document.getElementById("tv");
+    const laptopContent = document.getElementById("laptop");
+    
     if(x == 1)
     {
         tvContent.classList.remove("hidden");

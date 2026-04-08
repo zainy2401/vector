@@ -24,7 +24,6 @@ overlay.addEventListener('click', closeSidebar);
 
 function swap(x)
 {
-
     const tvContent = document.getElementById("tv");
     const laptopContent = document.getElementById("laptop");
     
@@ -37,5 +36,24 @@ function swap(x)
     {
         tvContent.classList.add("hidden");
         laptopContent.classList.remove("hidden");
+    }
+}
+
+// PESONAL SWITCHING
+
+function swap2(x)
+{
+    const tvContent = document.getElementById("tv");
+    const soundbarContent = document.getElementById("soundbar");
+
+    if(x == 1)
+    {
+        tvContent.classList.remove("hidden");
+        soundbarContent.classList.add("hidden");
+    }
+    else if(x == 2)
+    {
+        tvContent.classList.add("hidden");
+        soundbarContent.classList.remove("hidden");
     }
 }

@@ -302,11 +302,17 @@
   .w-100 {
     width: calc(var(--spacing) * 100);
   }
+  .w-\[90\%\] {
+    width: 90%;
+  }
   .w-fit {
     width: fit-content;
   }
   .w-full {
     width: 100%;
+  }
+  .max-w-full {
+    max-width: 100%;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -341,6 +347,9 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .overflow-x-hidden {
+    overflow-x: hidden;
   }
   .rounded-lg {
     border-radius: var(--radius-lg);
@@ -444,6 +453,9 @@
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
+  }
+  .break-words {
+    overflow-wrap: break-word;
   }
   .text-gray-100 {
     color: var(--color-gray-100);

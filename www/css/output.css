@@ -287,6 +287,9 @@
   .h-full {
     height: 100%;
   }
+  .w-70 {
+    width: calc(var(--spacing) * 70);
+  }
   .w-80 {
     width: calc(var(--spacing) * 80);
   }

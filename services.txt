@@ -15,3 +15,8 @@ Personal Soundbar recommendations (Sony SF-150, Sony Theatre BAR 6/60, )
 (include; title, image, variations, reason to sell)
 
 top tips
+
+future backend features:
+- crud for personal recommendations on tvs and soundbars - per user - linked to database.
+- live price tracking for products.
+- daily metric calculator for scoring and reward.
